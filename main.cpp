@@ -1,7 +1,11 @@
-#include "factory/test.cpp"
+#include "factory/test.h"
+#include "replace/test.h"
+#include <iostream>
+using namespace std;
 
 int main()
 {
     testFactory();
-    cin.get();
+    testPolicy();
+    std::cin.get();
 }

@@ -7,4 +7,4 @@ void testFactory()
     unique_ptr<CoreFactoryA> factory(new CoreFactoryA);
     unique_ptr<MultiCoreA> coreA(static_cast<MultiCoreA*>(factory->createMultiCore()));
     coreA->Show();
-}
+};
