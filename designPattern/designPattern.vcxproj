@@ -129,11 +129,17 @@
   <ItemGroup>
     <ClCompile Include="designPattern.cpp" />
     <ClCompile Include="sequence.cpp" />
+    <ClCompile Include="singleton.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="testSingleton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="singletonA.h" />
+    <ClInclude Include="singletonB.h" />
     <ClInclude Include="test.h" />
+    <ClInclude Include="testSingleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -16,6 +16,9 @@
     <Filter Include="adapter">
       <UniqueIdentifier>{f86e2611-be3b-4c73-a4f7-ba4e5b5ccbe3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{1b8bedf3-01c5-4d7d-bb97-4462e017e153}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="designPattern.cpp">
@@ -27,6 +30,12 @@
     <ClCompile Include="test.cpp">
       <Filter>adapter</Filter>
     </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="testSingleton.cpp">
+      <Filter>singleton</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence.h">
@@ -34,6 +43,18 @@
     </ClInclude>
     <ClInclude Include="test.h">
       <Filter>adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="testSingleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonB.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
