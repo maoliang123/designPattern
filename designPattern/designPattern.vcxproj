@@ -127,13 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="combined\combined.cpp" />
+    <ClCompile Include="combined\testCombined.cpp" />
     <ClCompile Include="designPattern.cpp" />
+    <ClCompile Include="prototype\prototype.cpp" />
+    <ClCompile Include="prototype\testPrototype.cpp" />
     <ClCompile Include="sequence.cpp" />
     <ClCompile Include="singleton.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="testSingleton.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="combined\combined.h" />
+    <ClInclude Include="combined\testCombined.h" />
+    <ClInclude Include="prototype\prototype.h" />
+    <ClInclude Include="prototype\testPrototype.h" />
     <ClInclude Include="sequence.h" />
     <ClInclude Include="singleton.h" />
     <ClInclude Include="singletonA.h" />

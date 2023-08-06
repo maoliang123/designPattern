@@ -36,6 +36,18 @@
     <ClCompile Include="testSingleton.cpp">
       <Filter>singleton</Filter>
     </ClCompile>
+    <ClCompile Include="prototype\prototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prototype\testPrototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="combined\combined.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="combined\testCombined.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence.h">
@@ -54,6 +66,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="singletonB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prototype\prototype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prototype\testPrototype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combined\combined.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combined\testCombined.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

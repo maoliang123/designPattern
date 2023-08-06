@@ -4,11 +4,15 @@
 #include <iostream>
 #include "test.h"
 #include "testSingleton.h"
+#include "prototype/testPrototype.h"
+#include "combined/testCombined.h"
 
 int main()
 {
     testAdapter();
     testSingleton();
+    testPrototype();
+    testCombined();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
