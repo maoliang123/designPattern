@@ -1,5 +1,11 @@
 ﻿  combined.cpp
   testCombined.cpp
   designPattern.cpp
+  prototype.cpp
+  testPrototype.cpp
+  sequence.cpp
+  singleton.cpp
+  test.cpp
+  testSingleton.cpp
   正在生成代码...
   designPattern.vcxproj -> C:\code\c++\designPattern\designPattern\x64\Debug\designPattern.exe
